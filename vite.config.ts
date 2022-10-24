@@ -15,7 +15,11 @@ export default defineConfig(({ mode }) => ({
   resolve: {
     mainFields: ['module'],
   },
-  plugins: [angular()],
+  plugins: [
+		angular({
+			inlineStylesExtension: 'scss',
+		})
+	],
   test: {
     globals: true,
     environment: 'jsdom',
