@@ -4,7 +4,7 @@ This project was generated with [Analog](https://npmjs.com/package/create-analog
 
 ## Setup
 
-Run `npm run` to install the application dependencies.
+Run `npm i` to install the application dependencies.
 
 ## Development
 
